@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="me.chenjr.uiinteraction.LinerLayout">
+    tools:context="me.chenjr.uiinteraction.LinerLayout_activity">
 
 
     
@@ -22,28 +22,36 @@
             android:gravity="center"
             android:layout_weight="10">
             <Button
-                android:id="@+id/btn_ll_hor"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lable_layout_horizontal"
-                />
-            <Button
                 android:id="@+id/btn_ll_ver"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/lable_layout_vertical"
                 />
             <Button
+                android:id="@+id/btn_ll_hor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lable_layout_horizontal"
+                />
+
+            <Button
                 android:id="@+id/btn_ll_left_center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/lable_gravity_left_center"
+                />
+            <Button
+                android:id="@+id/btn_ll_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lable_gravity_center"
                 />
 
         </LinearLayout>
 
 
         <Button
+            android:id="@+id/btn_ll_return"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 

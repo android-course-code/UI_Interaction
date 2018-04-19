@@ -3,4 +3,8 @@
     <string name="app_name">界面交互</string>
     <string name="lable_LL">线性布局</string>
     <string name="lable_return">返回</string>
+    <string name="lable_layout_vertical">垂直布局</string>
+    <string name="lable_layout_horizontal">水平布局</string>
+    <string name="lable_gravity_left_center">靠左对齐</string>
+    <string name="lable_gravity_center">居中对齐</string>
 </resources>

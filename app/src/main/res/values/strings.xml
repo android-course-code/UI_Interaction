@@ -6,5 +6,6 @@
     <string name="lable_layout_vertical">vertical</string>
     <string name="lable_layout_horizontal">horizontal</string>
     <string name="lable_gravity_left_center">left center</string>
+    <string name="lable_gravity_center">center</string>
 
 </resources>

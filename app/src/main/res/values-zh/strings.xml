@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">界面交互</string>
+    <string name="lable_LL">线性布局</string>
+    <string name="lable_return">返回</string>
+</resources>

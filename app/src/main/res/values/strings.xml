@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">UI Interaction</string>
+    <string name="lable_LL">LinearLayout</string>
+
+    <string name="lable_return">Return</string>
+    <string name="lable_layout_vertical">vertical</string>
+    <string name="lable_layout_horizontal">horizontal</string>
+    <string name="lable_gravity_left_center">left center</string>
 
 </resources>

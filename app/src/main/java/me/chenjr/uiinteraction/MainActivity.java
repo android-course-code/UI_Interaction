@@ -7,21 +7,34 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button uc1 = findViewById(R.id.btn_main_uc1);
-        final Context c = this;
-        uc1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(c,LinerLayout_activity.class));
-            }
-        });
+        ClassAndButton CoB[] = {
+                new ClassAndButton(findViewById(R.id.btn_main_uc1),LinerLayout_activity.class),
+                new ClassAndButton(findViewById(R.id.btn_main_uc2),RelativeLayout_activity.class)
+
+
+        };
+
+        final Context context = this;
+
+        for (final ClassAndButton cob : CoB){
+            cob.getBtn().setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(context,cob.getCls()));
+                }
+            });
+        }
+
 
 
     }
 }
+

@@ -19,7 +19,13 @@
         <activity
             android:name=".LinerLayout_activity"
             android:label="@string/lable_LL"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            />
+        <activity
+            android:name=".RelativeLayout_activity"
+            android:label="@string/lable_RL"
+            >
+
+        </activity>
     </application>
 
 </manifest>

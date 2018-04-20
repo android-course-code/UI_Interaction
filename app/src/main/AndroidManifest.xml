@@ -21,8 +21,11 @@
             android:label="@string/lable_LL" />
         <activity
             android:name=".RelativeLayout_activity"
-            android:label="@string/lable_RL"></activity>
-        <activity android:name=".FrameLayoutActivity"></activity>
+            android:label="@string/lable_RL"/>
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:label="@string/lable_FL"
+            />
     </application>
 
 </manifest>

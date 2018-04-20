@@ -5,6 +5,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import java.util.Timer;
@@ -53,6 +55,13 @@ public class FrameLayoutActivity extends AppCompatActivity {
                 handler.sendEmptyMessage(0xffa);
             }
         },100,2500);
+        Button bt_return =  findViewById(R.id.btn_fl_return);
+        bt_return.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
 
 

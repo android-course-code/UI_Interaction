@@ -8,4 +8,5 @@
     <string name="lable_gravity_left_center">靠左对齐</string>
     <string name="lable_gravity_center">居中对齐</string>
     <string name="lable_RL">相对布局</string>
+    <string name="lable_FL">帧布局</string>
 </resources>

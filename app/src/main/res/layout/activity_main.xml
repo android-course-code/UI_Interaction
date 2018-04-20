@@ -30,7 +30,7 @@
                 android:id="@+id/btn_main_uc2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="相对布局" />
+                android:text="@string/lable_RL" />
 
             <Button
                 android:id="@+id/btn_main_uc3"
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:text="陈金荣"
+                android:text="@string/name"
                 />
 
         </LinearLayout>

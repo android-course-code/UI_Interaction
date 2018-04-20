@@ -9,5 +9,6 @@
     <string name="lable_gravity_center">center</string>
     <string name="lable_RL">RelativeLayout</string>
     <string name="lable_layout_horizontal">horizontal</string>
+    <string name="name" translatable="false">chenjr</string>
 
 </resources>

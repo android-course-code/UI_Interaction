@@ -6,9 +6,9 @@ android {
         applicationId "me.chenjr.uiinteraction"
         minSdkVersion 17
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionName '0.2.2'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 103
     }
     buildTypes {
         release {

@@ -18,14 +18,11 @@
         </activity>
         <activity
             android:name=".LinerLayout_activity"
-            android:label="@string/lable_LL"
-            />
+            android:label="@string/lable_LL" />
         <activity
             android:name=".RelativeLayout_activity"
-            android:label="@string/lable_RL"
-            >
-
-        </activity>
+            android:label="@string/lable_RL"></activity>
+        <activity android:name=".FrameLayoutActivity"></activity>
     </application>
 
 </manifest>

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 new ClassAndButton(findViewById(R.id.btn_main_uc2),RelativeLayout_activity.class),
                 new ClassAndButton(findViewById(R.id.btn_main_uc3),FrameLayoutActivity.class),
                 new ClassAndButton(findViewById(R.id.btn_main_uc4),TableLayoutActivity.class),
-                new ClassAndButton(findViewById(R.id.btn_main_uc5),RelativeLayout_activity.class),
+                new ClassAndButton(findViewById(R.id.btn_main_uc5),GridLayoutActivity.class),
         };
 
         final Context context = this;

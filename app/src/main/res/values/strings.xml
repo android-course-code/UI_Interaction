@@ -12,5 +12,6 @@
     <string name="name" translatable="false">chenjr</string>
     <string name="lable_FL">FrameLayout</string>
     <string name="lable_TL">TableLayout</string>
+    <string name="lable_GL">GridLayout</string>
 
 </resources>

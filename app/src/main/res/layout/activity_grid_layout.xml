@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.chenjr.uiinteraction.GridLayoutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            >
+            <!--在这里添加layout-->
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:rowCount="6"
+                >
+
+
+                <Button android:text="1"/>
+                <Button android:text="2"/>
+                <Button android:text="3"/>
+                <Button android:text="4"/>
+                <Button android:text="5"/>
+                <Button android:text="6"/>
+                <Button android:text="7"/>
+                <Button android:text="8"/>
+                <Button android:text="9"/>
+
+                <Button android:text="0"/>
+                <Button android:text="+"/>
+                <Button android:text="-"/>
+                <Button android:text="*"/>
+                <Button android:text="/"/>
+                <Button android:text="="/>
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_gl_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lable_return" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

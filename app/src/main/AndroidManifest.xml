@@ -25,8 +25,11 @@
         <activity
             android:name=".FrameLayoutActivity"
             android:label="@string/lable_FL" />
-        <activity android:name=".TableLayoutActivity"
-            android:label="@string/lable_TL"
+        <activity
+            android:name=".TableLayoutActivity"
+            android:label="@string/lable_TL" />
+        <activity android:name=".GridLayoutActivity"
+            android:label="@string/lable_GL"
             />
     </application>
 

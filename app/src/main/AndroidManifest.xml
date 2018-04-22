@@ -21,10 +21,12 @@
             android:label="@string/lable_LL" />
         <activity
             android:name=".RelativeLayout_activity"
-            android:label="@string/lable_RL"/>
+            android:label="@string/lable_RL" />
         <activity
             android:name=".FrameLayoutActivity"
-            android:label="@string/lable_FL"
+            android:label="@string/lable_FL" />
+        <activity android:name=".TableLayoutActivity"
+            android:label="@string/lable_TL"
             />
     </application>
 
